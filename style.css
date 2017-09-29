@@ -1,0 +1,150 @@
+﻿html, body {
+    background: url(https://images8.alphacoders.com/659/659444.jpg) repeat repeat fixed;
+    background-size: 1500px 850px;
+}
+
+body, a, a:hover {
+    cursor: url(http://cursors1.totallyfreecursors.com/thumbnails/flower.gif), progress !important;
+}
+
+@font-face {
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('PT Mono'), local('PTMono-Regular'), url(https://fonts.gstatic.com/s/ptmono/v4/h6kfiL-5Ady2K9sB3hOqcw.woff2) format('woff2');
+}
+
+h1{
+    color:floralwhite
+}
+#gaia_header, #gaia_header ul {
+    font-family: 'PT Mono', monospace;
+    font-size: 10px !important;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    background: brown !important;
+}
+
+    #gaia_header a {
+        color: salmon !important;
+        font-weight: normal;
+        transition: .5s all;
+    }
+
+        #gaia_header a:hover {
+            opacity: .5;
+            text-decoration: none;
+        }
+
+#columns, #pictures_container, #texts_container {
+    top: 10px;
+    left: 50%;
+    margin-left: -250px;
+    width: 500px;
+    position: absolute;
+    overflow: visible;
+    padding-top: 550px;
+}
+
+#columns {
+    background: url(http://img-cache.cdn.gaiaonline.com/3447e513b8fa00b88d4fb232d351a9da/https://s20.postimg.org/etr3y8jh9/image.gif) no-repeat top center salmon;
+    opacity: 0.8;
+    border-style: dotted;
+    border-radius: 30px;
+    border-color: white;
+}
+
+#column_1, #column_2, #column_3 {
+    width: 100%;
+    margin: 0 0 -20px 0;
+    overflow: visible;
+}
+
+#columns .panel {
+    color: white;
+    font-family: 'PT Mono', monospace;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 10px 20px 10px;
+    border: 2px solid white;
+    border-radius: 30px 0px 0px 30px;
+    background: #f7a9a0;
+    height: 10px;
+    overflow: hidden;
+    transition: .5s all;
+}
+
+    #columns .panel:hover {
+        height: 200px;
+        overflow-y: auto;
+    }
+
+.panel h2 {
+    color: white;
+    font-weight: normal;
+    text-transform: lowercase;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 5px;
+    height: 10px;
+    margin: -5px -5px 10px -5px;
+    background: none;
+}
+
+.panel a {
+    color: white;
+    opacity: .5;
+    font-weight: normal;
+    transition: .5s all;
+}
+
+    .panel a:hover {
+        opacity: 1;
+        text-decoration: none;
+    }
+
+.panel img {
+    max-width: 100% !important;
+}
+
+#alert_container {
+    float: none;
+}
+
+#id_wishlist .item, #id_equipment .item, #id_friends li {
+    display: inline-block;
+    float: none !important;
+}
+
+#id_friends li {
+    width: 70px;
+}
+
+    #id_friends li img {
+        border: 1px solid white;
+    }
+
+    #id_friends li p {
+        margin-bottom: 2px;
+    }
+
+#friendGroup {
+    background: black;
+    border: 1px solid white;
+    color: white;
+    left: 50%;
+    margin-left: -250px;
+    width: 500px;
+    top: 50px;
+}
+
+#id_comments dt {
+    border-bottom-color: white;
+    margin-bottom: 2px;
+}
+
+#find_friends_banner, #id_comments .avatarImage, #alerts_banner, .deletecomment, .premium_sparkle, #avatar_menu + div + div, noscript + script + script + noscript + div[style*='display'] ~ div {
+    display: none !important;
+}
+
+/* Layout by Fiamata */
